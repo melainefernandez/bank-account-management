@@ -1,26 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ailin & Melaine's Birthday Party</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ailin & Melayne's Taco Birthday Party</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>You're Invited to Ailin & Melaine's Taco Birthday Party!</h1>
-  </header>
-  <main>
-    <section class="details">
-      <h2>Event Details</h2>
-      <p><strong>Date:</strong> Friday, January 24, 2025</p>
-      <p><strong>Time:</strong> 8:00 PM</p>
-      <p><strong>Location:</strong> Meli's house </p>
-      <p><strong>Theme:</strong> Taco Fiesta! 🌮 Come hungry and ready for fun!</p>
-    </section>
-  </main>
-  <footer>
-    <p>We can't wait to celebrate with you! 🌮🎉</p>
-  </footer>
+    <div class="container">
+        <header>
+            <h1>You're Invited to Ailin & Melayne's Taco Birthday Party!</h1>
+            <p>Join us for a taco-filled evening.</p>
+        </header>
+
+        <section class="party-details">
+            <p><strong>Date:</strong> Friday, 24th at 8 PM</p>
+            <p><strong>Location:</strong> Meli's house </p>
+            <p><strong>Theme:</strong> Taco Party!</p>
+        </section>
+
+        <section class="guest-list">
+            <h2>RSVP and Join the Fun!</h2>
+            <form id="guestForm">
+                <label for="guestName">Your Name:</label>
+                <input type="text" id="guestName" name="guestName" required>
+                <button type="submit">RSVP</button>
+            </form>
+
+            <h3>Guest List</h3>
+            <ul id="guestList"></ul>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

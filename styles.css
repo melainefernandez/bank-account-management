@@ -1,71 +1,79 @@
+/* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f8f2;
-    color: #333;
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #ffe29f, #ffc65c);
+  color: #333;
 }
 
 header {
-    text-align: center;
+  text-align: center;
+  padding: 20px;
+  background: #f76c6c;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
-    font-size: 36px;
-    color: #f39c12; /* Warm taco theme color */
+header h1 {
+  font-size: 2.5em;
+  margin: 0;
 }
 
-.party-details {
-    background-color: #ffffff;
-    padding: 15px;
-    margin-bottom: 20px;
-    border-radius: 8px;
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-h2, h3 {
-    font-size: 24px;
-    color: #2c3e50; /* Deep color for contrast */
+.details, .rsvp {
+  margin: 20px 0;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-form {
-    margin: 20px 0;
+.details h2, .rsvp h2 {
+  margin-top: 0;
+  color: #f76c6c;
 }
 
-input[type="text"] {
-    padding: 8px;
-    font-size: 16px;
-    margin-right: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+.details p {
+  font-size: 1.2em;
+  margin: 10px 0;
 }
 
-button {
-    padding: 8px 16px;
-    background-color: #f39c12; /* Taco orange color */
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
 }
 
-button:hover {
-    background-color: #e67e22; /* Slightly darker taco orange */
+form input, form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
+form button {
+  background-color: #f76c6c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-li {
-    background-color: #ecf0f1; /* Light grey background for list items */
-    margin: 5px 0;
-    padding: 10px;
-    border-radius: 4px;
+form button:hover {
+  background-color: #e65b5b;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #f76c6c;
+  color: white;
 }

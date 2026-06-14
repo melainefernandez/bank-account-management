@@ -1,0 +1,8 @@
+# Compiled output
+bank_account
+*.o
+*.out
+
+# OS files
+.DS_Store
+Thumbs.db
